@@ -1,0 +1,28 @@
+# My content B/S CRM roadmap
+- [x] Repair stale profile selection causing Create foreign-key errors; 16 targeted tests passed and signed-in creation verified
+- [x] Verify published dashboard counts and dates across profiles; signed-in publication and reload checks passed
+- [x] Connect brand-deal income entries with Deals without double-counting; signed-in classification, amount edits and deletes passed
+- [x] Make Next video horizontal scrolling unobtrusive; final stages remain reachable
+- [x] Keep idea capture separate from pipeline; explicit, duplicate-safe Send to pipeline action; dashboard capture corrected; signed-in flows and six tests passed
+- [x] Smaller dashboard greeting with normal letter spacing
+- [x] Complete downloadable backup and spreadsheet export
+- [x] Remove Revenue projector and its AI controls, retain AI Settings
+- [x] Compact assistant with fresh owner-wide context and real deadline reminders; setup error, browser history and reminders verified
+- [ ] Live assistant reply verification — blocked until own-provider model and key are configured in AI Settings
+- [x] Requested UI corrections: compact More and editing states, rename app, move expandable dashboard profiles with add shortcut, confirm all sign-outs, remove sidebar theme switch; signed-in desktop/mobile flows and navigation tests passed
+- [x] App-wide UI refresh: reference colors, Apple-style typography, shared rounded controls, polished navigation and page consistency; signed-in pages, light/dark, profile drawers, More navigation and narrow layouts verified
+- [x] Phase 1: Auth, layout, design system, Accounts Hub, Pipeline (Kanban + table)
+- [x] Calendar: connected publishing schedule, month/week/agenda views, profile isolation, gentle creative momentum, tested scheduling
+- [x] Ideas: profile-specific capture, scoring, statuses, promotion to pipeline, undoable deletion
+- [x] Profile pictures: private uploads across profile displays, best-effort public platform lookup with upload fallback, keep brand colors
+- [ ] Phase 2 remaining: full Dashboard — waiting for user testing before proceeding
+- [x] Brand deals: groups, analytics, table, drawer, profile scoping
+- [x] Revenue: income/expenses, sources, monthly view, all-time card, paid deals count as income
+- [x] Small dashboard update: monthly earnings and published videos, animated real metrics, normal All time card background; signed-in and narrow-screen checks passed
+- [x] Income-only line chart; revenue projector removed as requested
+- [x] Shared own-provider AI settings retained for assistant and future features
+- [x] Workflow editor storage: applied the pending database update so custom steps and tasks save per user; signed-in rename, reload and reset checks passed
+- [x] Library, reference links and custom board columns storage: applied the pending database update plus the private file bucket; signed-in add/remove, column rename, reference-link saves and reload persistence verified
+- [x] Brand deal ordering and deal tasks: applied the pending database update (manual drag order + per-deal checklist with reminders); signed-in drag, move-to-top, task add/tick/rename/reminder and reload persistence verified
+- [ ] Phase 4: Analytics & Projections
+- [ ] Phase 5: Notion / Google Docs / Google Calendar integrations, AI helper
